@@ -1,0 +1,53 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+.carousel-inner img {
+    height: 450px; 
+    object-fit: cover;
+} 
+
+.img-tradicion img {
+    height: 450px;
+    object-fit: cover;
+}
+
+.btn-carousel {
+    background-color: #f4b400;
+    color: black;
+    border: none;
+}
+
+.btn-carousel:hover {
+    background-color: #f4b400;
+    color: black;
+    border: none;
+}
+
+.card-title { 
+    color: #c92525; 
+    font-weight: 700; 
+    text-align: left; 
+}
+
+.card-img-top { 
+    height: 350px;  
+}
+
+.festival {
+    background-color: #fdf6f0;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #ffc107 !important;
+    color: #000 !important;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+    border-color: transparent;
+}

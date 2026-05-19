@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Festival De Los Faroles</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/estilos.css">  
+</head>
+<body>    
+    <div class="container-fluid px-0">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #c92525;">
+                <div class="container-fluid px-4"> <!-- px-4 padding horizontal de 4-->
+                    <!-- Imagen -->
+                    <a class="navbar-brand d-flex align-items-center gap-3" href="#">
+                        <img src="./img/logo/logo.png" alt="Festival de los Faroles" width="90" height="90">
+                        <span class="fw-bold text-white">Festival De Los Faroles</span>
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavbar" aria-controls="menuNavbar" aria-expanded="false" aria-label="Abrir menú">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="menuNavbar">
+                        <ul class="navbar-nav ms-auto gap-3">
+                            <!-- Inicio -->
+                            <li class="nav-item"> 
+                                <a class="nav-link active fw-bold text-white fs-5" href="index.html"> <!-- fs-5 hace la letra mas grande -->
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">
+                                        <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5"/>
+                                    </svg>
+                                    Inicio
+                                </a>
+                            </li>
+
+                            <!-- Tradicion -->
+                            <li class="nav-item">
+                                <a class="nav-link active fw-bold text-white fs-5" href="./portfolio/tradicion.html">
+                                    Tradicion
+                                </a>
+                            </li>
+
+                            <!-- Formulario -->
+                            <li class="nav-item">
+                                <a class="nav-link active fw-bold text-white fs-5" aria-current="page" href="./portfolio/formulario.html">
+                                    Participa
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <!-- Carousel -->
+            <div class="row g-0">
+                <div id="carouselExampleCaptions" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                        <img src="./img/carousel/carousel1.png" class="d-block w-100" alt="imagen1-carousel">
+                        <div class="carousel-caption d-block text-center text-md-start mb-3 mb-md-5">
+                            <h1 class="fw-bold display-3">Festival De Los Faroles</h1>
+                            <h5 class="fs-3">Luz, tradición y cultura bajo la primera luna llena</h5>
+                            <a href="./portfolio/tradicion.html" class="btn btn-lg btn-carousel">
+                                Conoce La Historia
+                            </a>
+                        </div>
+                    </div>
+                        <div class="carousel-item">
+                            <img src="./img/carousel/carousel2.png" class="d-block w-100" alt="imagen2-carousel">
+                            <div class="carousel-caption d-block">
+                                <h5><b>Tradiciones que iluminan generaciones</b></h5>
+                                <p><b>Costumbres ancestrales como los faroles, los acertijos y las celebraciones familiares.</b></p>
+                            </div>
+                            </div>
+                            <div class="carousel-item">
+                            <img src="./img/carousel/carousel3.png" class="d-block w-100" alt="imagen3-carousel">
+                            <div class="carousel-caption d-block">
+                                <h5><b>Una noche de magia, cultura y esperanza</b></h5>
+                                <p><b>Vive la emoción del Festival de los Faroles entre luces, espectáculos y deseos bajo el cielo nocturno.</b></p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Titulo -->
+            <div class="row justify-content-center align-items-center mt-2 mb-1">
+                <div class="text-center">
+                    <h2 class="display-4 fw-bold">Descubre El Festival</h2>
+                </div>
+            </div>
+
+            <!-- Cultura y Celebracion -->
+            <div class="row mt-4 align-items-center">   
+                <div class="col-sm-12 col-md-12 col-lg-6 text center">
+                    <img src="./img/inicio/foto1.png" class="img-fluid mx-auto d-block w-75 rounded shadow" alt="foto1">
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-6 text-center">
+                    <h2 class="fw-bold mb-4 text-danger">Cultura y Celebracion</h2>
+                    <p class="text-muted fs-5 lh-lg">
+                        El Festival de los Faroles es una celebración llena de tradición, simbolismo y unión familiar. 
+                        Cada año, miles de faroles iluminan la noche como representación de esperanza, prosperidad y buenos deseos para el futuro. 
+                        Además de su valor cultural, el festival reúne música, danzas tradicionales, espectáculos y activida
+                    </p>
+                </div>
+            </div>
+
+            <!-- Historia y Tradiciones -->
+            <div class="row mt-4 align-items-center">
+                <div class="col-sm-12 col-md-12 col-lg-6 text-center">
+                    <h2 class="fw-bold mb-4 text-warning">Historia y Tradiciones</h2>
+                    <p class="text-muted fs-5 lh-lg">
+                        El Festival de los Faroles tiene su origen en antiguas tradiciones chinas y marca el final de las celebraciones del Año Nuevo Lunar. 
+                        A lo largo de los siglos, esta festividad ha reunido a familias y comunidades para compartir momentos de alegría, encender faroles y mantener vivas costumbres llenas de simbolismo. 
+                        Entre sus tradiciones más destacadas se encuentran las danzas del dragón, los acertijos en los faroles y la degustación de platos típicos.
+                    </p>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-6 text-center">
+                    <img src="./img/inicio/foto2.png" class="img-fluid mx-auto d-block w-75 rounded shadow" alt="foto2">
+                </div>
+            </div>
+        </main>
+
+        <footer class="mt-5" style="background-color: #c92525;">
+            <div class="row">
+                <div class="col-sm-12 text-center col-md-6 text-start col-lg-6 p-4 text-white"><b>Festival de los faroles</b>| Mario Souto</div>
+                <div class="col-sm-12 text-center col-md-6 text-end col-lg-6  p-4 text-white">
+                    <img src="./img/footer/facebook.png" alt="facebook">
+                    <img src="./img/footer/instagram.png" alt="instagram">
+                    <img src="./img/footer/youtube.png" alt="youtube">
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Fichero JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
